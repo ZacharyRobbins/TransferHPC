@@ -1,0 +1,51 @@
+
+------------------------------------------------------------
+Sender: LSF System <lsfadmin@n2h1-1>
+Subject: Job 344512: <Conefor> in cluster <henry2> Done
+
+Job <Conefor> was submitted from host <login04> by user <tgmozele> in cluster <henry2> at Fri Aug 14 19:49:33 2020
+Job was executed on host(s) <n2h1-1>, in queue <serial_long>, as user <tgmozele> in cluster <henry2> at Sat Aug 15 22:55:39 2020
+</home/tgmozele> was used as the home directory.
+</share/tcsi/Conn_Project/cluster/cluster3/Output_cluster3s1000> was used as the working directory.
+Started at Sat Aug 15 22:55:39 2020
+Terminated at Mon Aug 17 13:29:20 2020
+Results reported at Mon Aug 17 13:29:20 2020
+
+Your job looked like:
+
+------------------------------------------------------------
+# LSBATCH: User input
+#!/bin/tcsh
+#BSUB -n 1
+#BSUB -W 120:00
+#BSUB -J Conefor
+#BSUB -o stdout.%J
+#BSUB -e stderr.%J
+#BSUB -R "rusage[mem=12000]"
+R CMD BATCH ConeforCluster3s1.R
+
+------------------------------------------------------------
+
+Successfully completed.
+
+Resource usage summary:
+
+    CPU time :                                   138925.62 sec.
+    Max Memory :                                 4741.58 MB
+    Average Memory :                             3941.99 MB
+    Total Requested Memory :                     12000.00 MB
+    Delta Memory :                               7258.42 MB
+    Max Swap :                                   128 KB
+    Max Processes :                              6
+    Max Threads :                                7
+    Run time :                                   138847 sec.
+    Turnaround time :                            236387 sec.
+
+The output (if any) is above this job summary.
+
+
+
+PS:
+
+Read file <stderr.344512> for stderr output of this job.
+
