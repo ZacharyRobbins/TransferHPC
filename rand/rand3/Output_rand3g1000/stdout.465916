@@ -1,0 +1,51 @@
+
+------------------------------------------------------------
+Sender: LSF System <lsfadmin@n2h1-10>
+Subject: Job 465916: <Test> in cluster <henry2> Done
+
+Job <Test> was submitted from host <login03> by user <tgmozele> in cluster <henry2> at Fri Aug 21 13:32:04 2020
+Job was executed on host(s) <n2h1-10>, in queue <serial_long>, as user <tgmozele> in cluster <henry2> at Sun Sep  6 04:40:53 2020
+</home/tgmozele> was used as the home directory.
+</share/tcsi/Conn_Project/rand/rand3/Output_rand3g1000> was used as the working directory.
+Started at Sun Sep  6 04:40:53 2020
+Terminated at Mon Sep  7 12:03:20 2020
+Results reported at Mon Sep  7 12:03:20 2020
+
+Your job looked like:
+
+------------------------------------------------------------
+# LSBATCH: User input
+#!/bin/tcsh
+#BSUB -n 1
+#BSUB -W 200:00
+#BSUB -J Test
+#BSUB -o stdout.%J
+#BSUB -e stderr.%J
+#BSUB -R "rusage[mem=12000]"
+R CMD BATCH ConeforRand3g1.R
+
+------------------------------------------------------------
+
+Successfully completed.
+
+Resource usage summary:
+
+    CPU time :                                   112911.90 sec.
+    Max Memory :                                 3622.32 MB
+    Average Memory :                             3148.93 MB
+    Total Requested Memory :                     12000.00 MB
+    Delta Memory :                               8377.68 MB
+    Max Swap :                                   -
+    Max Processes :                              6
+    Max Threads :                                7
+    Run time :                                   112973 sec.
+    Turnaround time :                            1463476 sec.
+
+The output (if any) is above this job summary.
+
+
+
+PS:
+
+Read file <stderr.465916> for stderr output of this job.
+

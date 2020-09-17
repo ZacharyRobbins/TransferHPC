@@ -1,0 +1,155 @@
+
+R version 3.6.3 (2020-02-29) -- "Holding the Windsock"
+Copyright (C) 2020 The R Foundation for Statistical Computing
+Platform: x86_64-conda_cos6-linux-gnu (64-bit)
+
+R is free software and comes with ABSOLUTELY NO WARRANTY.
+You are welcome to redistribute it under certain conditions.
+Type 'license()' or 'licence()' for distribution details.
+
+  Natural language support but running in an English locale
+
+R is a collaborative project with many contributors.
+Type 'contributors()' for more information and
+'citation()' on how to cite R or R packages in publications.
+
+Type 'demo()' for some demos, 'help()' for on-line help, or
+'help.start()' for an HTML browser interface to help.
+Type 'q()' to quit R.
+
+> #Conefore command line
+> 
+> system("./conefor2.7.3Linux -nodeFile nodes -conFile distance -t dist notall -* -confProb 50000 0.5 -PC onlyoverall")
+
+Number of file pairs: 9
+Executing the following command: ./conefor2.7.3Linux -nodeFile nodes -conFile distance -t dist notall -* -confProb 50000 0.5 -PC onlyoverall 
+Execution started at: Sat Aug 22 23:03:10 2020
+
+Number of nodes to process: 7350
+Sum of the attributes of existing nodes: 11178.7
+Distance and probability (probabilistic indices): 50000 0.5
+PC computed in the default mode: checking all paths (no connections discarded)
+Node file: nodes_5000geosyr0Rep_1.txt
+Connection file: distance_5000geosyr0Rep_1.txt
+
+Progress of the calculations is being written to file _5000geosyr0Rep_1.txt_execution_events.txt
+Execution ended at: Sat Aug 22 23:47:21 2020
+
+Total processing time:  44 minutes 11 seconds
+Executing the following command: ./conefor2.7.3Linux -nodeFile nodes -conFile distance -t dist notall -* -confProb 50000 0.5 -PC onlyoverall 
+Execution started at: Sat Aug 22 23:47:21 2020
+
+Number of nodes to process: 12931
+Sum of the attributes of existing nodes: 19279
+Distance and probability (probabilistic indices): 50000 0.5
+PC computed in the default mode: checking all paths (no connections discarded)
+Node file: nodes_5000geosyr10Rep_1.txt
+Connection file: distance_5000geosyr10Rep_1.txt
+
+Progress of the calculations is being written to file _5000geosyr10Rep_1.txt_execution_events.txt
+Execution ended at: Sun Aug 23 03:42:12 2020
+
+Total processing time:  3 hours 54 minutes 51 seconds
+Executing the following command: ./conefor2.7.3Linux -nodeFile nodes -conFile distance -t dist notall -* -confProb 50000 0.5 -PC onlyoverall 
+Execution started at: Sun Aug 23 03:42:12 2020
+
+Number of nodes to process: 12723
+Sum of the attributes of existing nodes: 18474.9
+Distance and probability (probabilistic indices): 50000 0.5
+PC computed in the default mode: checking all paths (no connections discarded)
+Node file: nodes_5000geosyr20Rep_1.txt
+Connection file: distance_5000geosyr20Rep_1.txt
+
+Progress of the calculations is being written to file _5000geosyr20Rep_1.txt_execution_events.txt
+Execution ended at: Sun Aug 23 07:36:50 2020
+
+Total processing time:  3 hours 54 minutes 38 seconds
+Executing the following command: ./conefor2.7.3Linux -nodeFile nodes -conFile distance -t dist notall -* -confProb 50000 0.5 -PC onlyoverall 
+Execution started at: Sun Aug 23 07:36:50 2020
+
+Number of nodes to process: 12752
+Sum of the attributes of existing nodes: 18165.1
+Distance and probability (probabilistic indices): 50000 0.5
+PC computed in the default mode: checking all paths (no connections discarded)
+Node file: nodes_5000geosyr30Rep_1.txt
+Connection file: distance_5000geosyr30Rep_1.txt
+
+Progress of the calculations is being written to file _5000geosyr30Rep_1.txt_execution_events.txt
+Execution ended at: Sun Aug 23 11:19:52 2020
+
+Total processing time:  3 hours 43 minutes 2 seconds
+Executing the following command: ./conefor2.7.3Linux -nodeFile nodes -conFile distance -t dist notall -* -confProb 50000 0.5 -PC onlyoverall 
+Execution started at: Sun Aug 23 11:19:52 2020
+
+Number of nodes to process: 14621
+Sum of the attributes of existing nodes: 20264.8
+Distance and probability (probabilistic indices): 50000 0.5
+PC computed in the default mode: checking all paths (no connections discarded)
+Node file: nodes_5000geosyr40Rep_1.txt
+Connection file: distance_5000geosyr40Rep_1.txt
+
+Progress of the calculations is being written to file _5000geosyr40Rep_1.txt_execution_events.txt
+Execution ended at: Sun Aug 23 16:57:12 2020
+
+Total processing time:  5 hours 37 minutes 20 seconds
+Executing the following command: ./conefor2.7.3Linux -nodeFile nodes -conFile distance -t dist notall -* -confProb 50000 0.5 -PC onlyoverall 
+Execution started at: Sun Aug 23 16:57:12 2020
+
+Number of nodes to process: 15600
+Sum of the attributes of existing nodes: 21597.7
+Distance and probability (probabilistic indices): 50000 0.5
+PC computed in the default mode: checking all paths (no connections discarded)
+Node file: nodes_5000geosyr50Rep_1.txt
+Connection file: distance_5000geosyr50Rep_1.txt
+
+Progress of the calculations is being written to file _5000geosyr50Rep_1.txt_execution_events.txt
+Execution ended at: Sun Aug 23 23:51:24 2020
+
+Total processing time:  6 hours 54 minutes 12 seconds
+Executing the following command: ./conefor2.7.3Linux -nodeFile nodes -conFile distance -t dist notall -* -confProb 50000 0.5 -PC onlyoverall 
+Execution started at: Sun Aug 23 23:51:24 2020
+
+Number of nodes to process: 16376
+Sum of the attributes of existing nodes: 22896.4
+Distance and probability (probabilistic indices): 50000 0.5
+PC computed in the default mode: checking all paths (no connections discarded)
+Node file: nodes_5000geosyr60Rep_1.txt
+Connection file: distance_5000geosyr60Rep_1.txt
+
+Progress of the calculations is being written to file _5000geosyr60Rep_1.txt_execution_events.txt
+Execution ended at: Mon Aug 24 07:52:41 2020
+
+Total processing time:  8 hours 1 minutes 17 seconds
+Executing the following command: ./conefor2.7.3Linux -nodeFile nodes -conFile distance -t dist notall -* -confProb 50000 0.5 -PC onlyoverall 
+Execution started at: Mon Aug 24 07:52:42 2020
+
+Number of nodes to process: 16824
+Sum of the attributes of existing nodes: 23566.7
+Distance and probability (probabilistic indices): 50000 0.5
+PC computed in the default mode: checking all paths (no connections discarded)
+Node file: nodes_5000geosyr70Rep_1.txt
+Connection file: distance_5000geosyr70Rep_1.txt
+
+Progress of the calculations is being written to file _5000geosyr70Rep_1.txt_execution_events.txt
+Execution ended at: Mon Aug 24 16:31:56 2020
+
+Total processing time:  8 hours 39 minutes 14 seconds
+Executing the following command: ./conefor2.7.3Linux -nodeFile nodes -conFile distance -t dist notall -* -confProb 50000 0.5 -PC onlyoverall 
+Execution started at: Mon Aug 24 16:31:56 2020
+
+Number of nodes to process: 17135
+Sum of the attributes of existing nodes: 23885.2
+Distance and probability (probabilistic indices): 50000 0.5
+PC computed in the default mode: checking all paths (no connections discarded)
+Node file: nodes_5000geosyr80Rep_1.txt
+Connection file: distance_5000geosyr80Rep_1.txt
+
+Progress of the calculations is being written to file _5000geosyr80Rep_1.txt_execution_events.txt
+Execution ended at: Tue Aug 25 01:39:46 2020
+
+Total processing time:  9 hours 7 minutes 50 seconds
+> 
+> 
+> proc.time()
+      user     system    elapsed 
+181259.228    910.632 182197.140 

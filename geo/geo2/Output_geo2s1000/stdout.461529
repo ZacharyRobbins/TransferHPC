@@ -1,0 +1,51 @@
+
+------------------------------------------------------------
+Sender: LSF System <lsfadmin@n2h1-1>
+Subject: Job 461529: <Test> in cluster <henry2> Done
+
+Job <Test> was submitted from host <login04> by user <tgmozele> in cluster <henry2> at Thu Aug 20 13:51:30 2020
+Job was executed on host(s) <n2h1-1>, in queue <serial_long>, as user <tgmozele> in cluster <henry2> at Sun Aug 23 06:29:00 2020
+</home/tgmozele> was used as the home directory.
+</share/tcsi/Conn_Project/geo/geo2/Output_geo2s1000> was used as the working directory.
+Started at Sun Aug 23 06:29:00 2020
+Terminated at Tue Aug 25 00:31:10 2020
+Results reported at Tue Aug 25 00:31:10 2020
+
+Your job looked like:
+
+------------------------------------------------------------
+# LSBATCH: User input
+#!/bin/tcsh
+#BSUB -n 1
+#BSUB -W 120:00
+#BSUB -J Test
+#BSUB -o stdout.%J
+#BSUB -e stderr.%J
+#BSUB -R "rusage[mem=10000]"
+R CMD BATCH ConeforGeo2s1.R
+
+------------------------------------------------------------
+
+Successfully completed.
+
+Resource usage summary:
+
+    CPU time :                                   151305.36 sec.
+    Max Memory :                                 4397.42 MB
+    Average Memory :                             3595.70 MB
+    Total Requested Memory :                     10000.00 MB
+    Delta Memory :                               5602.58 MB
+    Max Swap :                                   7 MB
+    Max Processes :                              6
+    Max Threads :                                7
+    Run time :                                   151347 sec.
+    Turnaround time :                            383980 sec.
+
+The output (if any) is above this job summary.
+
+
+
+PS:
+
+Read file <stderr.461529> for stderr output of this job.
+

@@ -1,0 +1,51 @@
+
+------------------------------------------------------------
+Sender: LSF System <lsfadmin@n2h1-11>
+Subject: Job 344527: <Test> in cluster <henry2> Done
+
+Job <Test> was submitted from host <login04> by user <tgmozele> in cluster <henry2> at Fri Aug 14 20:40:29 2020
+Job was executed on host(s) <n2h1-11>, in queue <serial_long>, as user <tgmozele> in cluster <henry2> at Wed Aug 19 00:11:53 2020
+</home/tgmozele> was used as the home directory.
+</share/tcsi/Conn_Project/econ/econ2/Output_econ2s5000> was used as the working directory.
+Started at Wed Aug 19 00:11:53 2020
+Terminated at Thu Aug 20 17:50:22 2020
+Results reported at Thu Aug 20 17:50:22 2020
+
+Your job looked like:
+
+------------------------------------------------------------
+# LSBATCH: User input
+#!/bin/tcsh
+#BSUB -n 1
+#BSUB -W 120:00
+#BSUB -J Test
+#BSUB -o stdout.%J
+#BSUB -e stderr.%J
+#BSUB -R "rusage[mem=12000]"
+R CMD BATCH ConeforEcon2s5.R
+
+------------------------------------------------------------
+
+Successfully completed.
+
+Resource usage summary:
+
+    CPU time :                                   149968.34 sec.
+    Max Memory :                                 5748.86 MB
+    Average Memory :                             4325.07 MB
+    Total Requested Memory :                     12000.00 MB
+    Delta Memory :                               6251.14 MB
+    Max Swap :                                   -
+    Max Processes :                              6
+    Max Threads :                                7
+    Run time :                                   149914 sec.
+    Turnaround time :                            508193 sec.
+
+The output (if any) is above this job summary.
+
+
+
+PS:
+
+Read file <stderr.344527> for stderr output of this job.
+

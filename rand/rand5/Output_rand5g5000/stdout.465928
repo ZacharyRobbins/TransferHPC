@@ -1,0 +1,51 @@
+
+------------------------------------------------------------
+Sender: LSF System <lsfadmin@n2h1-7>
+Subject: Job 465928: <Test> in cluster <henry2> Done
+
+Job <Test> was submitted from host <login03> by user <tgmozele> in cluster <henry2> at Fri Aug 21 13:37:29 2020
+Job was executed on host(s) <n2h1-7>, in queue <serial_long>, as user <tgmozele> in cluster <henry2> at Mon Sep  7 17:06:39 2020
+</home/tgmozele> was used as the home directory.
+</share/tcsi/Conn_Project/rand/rand5/Output_rand5g5000> was used as the working directory.
+Started at Mon Sep  7 17:06:39 2020
+Terminated at Tue Sep  8 20:48:21 2020
+Results reported at Tue Sep  8 20:48:21 2020
+
+Your job looked like:
+
+------------------------------------------------------------
+# LSBATCH: User input
+#!/bin/tcsh
+#BSUB -n 1
+#BSUB -W 200:00
+#BSUB -J Test
+#BSUB -o stdout.%J
+#BSUB -e stderr.%J
+#BSUB -R "rusage[mem=12000]"
+R CMD BATCH ConeforRand5g5.R
+
+------------------------------------------------------------
+
+Successfully completed.
+
+Resource usage summary:
+
+    CPU time :                                   99766.60 sec.
+    Max Memory :                                 3134.19 MB
+    Average Memory :                             2777.39 MB
+    Total Requested Memory :                     12000.00 MB
+    Delta Memory :                               8865.81 MB
+    Max Swap :                                   17592186044416 MB
+    Max Processes :                              6
+    Max Threads :                                7
+    Run time :                                   99732 sec.
+    Turnaround time :                            1581052 sec.
+
+The output (if any) is above this job summary.
+
+
+
+PS:
+
+Read file <stderr.465928> for stderr output of this job.
+

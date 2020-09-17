@@ -1,0 +1,155 @@
+
+R version 3.6.3 (2020-02-29) -- "Holding the Windsock"
+Copyright (C) 2020 The R Foundation for Statistical Computing
+Platform: x86_64-conda_cos6-linux-gnu (64-bit)
+
+R is free software and comes with ABSOLUTELY NO WARRANTY.
+You are welcome to redistribute it under certain conditions.
+Type 'license()' or 'licence()' for distribution details.
+
+  Natural language support but running in an English locale
+
+R is a collaborative project with many contributors.
+Type 'contributors()' for more information and
+'citation()' on how to cite R or R packages in publications.
+
+Type 'demo()' for some demos, 'help()' for on-line help, or
+'help.start()' for an HTML browser interface to help.
+Type 'q()' to quit R.
+
+> #Conefore command line
+> 
+> system("./conefor2.7.3Linux -nodeFile nodes -conFile distance -t dist notall -* -confProb 50000 0.5 -PC onlyoverall")
+
+Number of file pairs: 9
+Executing the following command: ./conefor2.7.3Linux -nodeFile nodes -conFile distance -t dist notall -* -confProb 50000 0.5 -PC onlyoverall 
+Execution started at: Fri Aug 28 20:55:23 2020
+
+Number of nodes to process: 6899
+Sum of the attributes of existing nodes: 10550.4
+Distance and probability (probabilistic indices): 50000 0.5
+PC computed in the default mode: checking all paths (no connections discarded)
+Node file: nodes_5000randsyr0Rep_2.txt
+Connection file: distance_5000randsyr0Rep_2.txt
+
+Progress of the calculations is being written to file _5000randsyr0Rep_2.txt_execution_events.txt
+Execution ended at: Fri Aug 28 21:34:22 2020
+
+Total processing time:  38 minutes 59 seconds
+Executing the following command: ./conefor2.7.3Linux -nodeFile nodes -conFile distance -t dist notall -* -confProb 50000 0.5 -PC onlyoverall 
+Execution started at: Fri Aug 28 21:34:22 2020
+
+Number of nodes to process: 12127
+Sum of the attributes of existing nodes: 17351.6
+Distance and probability (probabilistic indices): 50000 0.5
+PC computed in the default mode: checking all paths (no connections discarded)
+Node file: nodes_5000randsyr10Rep_2.txt
+Connection file: distance_5000randsyr10Rep_2.txt
+
+Progress of the calculations is being written to file _5000randsyr10Rep_2.txt_execution_events.txt
+Execution ended at: Sat Aug 29 00:59:40 2020
+
+Total processing time:  3 hours 25 minutes 18 seconds
+Executing the following command: ./conefor2.7.3Linux -nodeFile nodes -conFile distance -t dist notall -* -confProb 50000 0.5 -PC onlyoverall 
+Execution started at: Sat Aug 29 00:59:40 2020
+
+Number of nodes to process: 12300
+Sum of the attributes of existing nodes: 17378.7
+Distance and probability (probabilistic indices): 50000 0.5
+PC computed in the default mode: checking all paths (no connections discarded)
+Node file: nodes_5000randsyr20Rep_2.txt
+Connection file: distance_5000randsyr20Rep_2.txt
+
+Progress of the calculations is being written to file _5000randsyr20Rep_2.txt_execution_events.txt
+Execution ended at: Sat Aug 29 04:42:59 2020
+
+Total processing time:  3 hours 43 minutes 19 seconds
+Executing the following command: ./conefor2.7.3Linux -nodeFile nodes -conFile distance -t dist notall -* -confProb 50000 0.5 -PC onlyoverall 
+Execution started at: Sat Aug 29 04:42:59 2020
+
+Number of nodes to process: 12226
+Sum of the attributes of existing nodes: 16858.3
+Distance and probability (probabilistic indices): 50000 0.5
+PC computed in the default mode: checking all paths (no connections discarded)
+Node file: nodes_5000randsyr30Rep_2.txt
+Connection file: distance_5000randsyr30Rep_2.txt
+
+Progress of the calculations is being written to file _5000randsyr30Rep_2.txt_execution_events.txt
+Execution ended at: Sat Aug 29 08:26:05 2020
+
+Total processing time:  3 hours 43 minutes 6 seconds
+Executing the following command: ./conefor2.7.3Linux -nodeFile nodes -conFile distance -t dist notall -* -confProb 50000 0.5 -PC onlyoverall 
+Execution started at: Sat Aug 29 08:26:05 2020
+
+Number of nodes to process: 14202
+Sum of the attributes of existing nodes: 19827.1
+Distance and probability (probabilistic indices): 50000 0.5
+PC computed in the default mode: checking all paths (no connections discarded)
+Node file: nodes_5000randsyr40Rep_2.txt
+Connection file: distance_5000randsyr40Rep_2.txt
+
+Progress of the calculations is being written to file _5000randsyr40Rep_2.txt_execution_events.txt
+Execution ended at: Sat Aug 29 14:11:51 2020
+
+Total processing time:  5 hours 45 minutes 46 seconds
+Executing the following command: ./conefor2.7.3Linux -nodeFile nodes -conFile distance -t dist notall -* -confProb 50000 0.5 -PC onlyoverall 
+Execution started at: Sat Aug 29 14:11:51 2020
+
+Number of nodes to process: 14779
+Sum of the attributes of existing nodes: 20712.5
+Distance and probability (probabilistic indices): 50000 0.5
+PC computed in the default mode: checking all paths (no connections discarded)
+Node file: nodes_5000randsyr50Rep_2.txt
+Connection file: distance_5000randsyr50Rep_2.txt
+
+Progress of the calculations is being written to file _5000randsyr50Rep_2.txt_execution_events.txt
+Execution ended at: Sat Aug 29 20:18:28 2020
+
+Total processing time:  6 hours 6 minutes 37 seconds
+Executing the following command: ./conefor2.7.3Linux -nodeFile nodes -conFile distance -t dist notall -* -confProb 50000 0.5 -PC onlyoverall 
+Execution started at: Sat Aug 29 20:18:28 2020
+
+Number of nodes to process: 15408
+Sum of the attributes of existing nodes: 21697.7
+Distance and probability (probabilistic indices): 50000 0.5
+PC computed in the default mode: checking all paths (no connections discarded)
+Node file: nodes_5000randsyr60Rep_2.txt
+Connection file: distance_5000randsyr60Rep_2.txt
+
+Progress of the calculations is being written to file _5000randsyr60Rep_2.txt_execution_events.txt
+Execution ended at: Sun Aug 30 03:39:40 2020
+
+Total processing time:  7 hours 21 minutes 12 seconds
+Executing the following command: ./conefor2.7.3Linux -nodeFile nodes -conFile distance -t dist notall -* -confProb 50000 0.5 -PC onlyoverall 
+Execution started at: Sun Aug 30 03:39:40 2020
+
+Number of nodes to process: 16105
+Sum of the attributes of existing nodes: 22889.2
+Distance and probability (probabilistic indices): 50000 0.5
+PC computed in the default mode: checking all paths (no connections discarded)
+Node file: nodes_5000randsyr70Rep_2.txt
+Connection file: distance_5000randsyr70Rep_2.txt
+
+Progress of the calculations is being written to file _5000randsyr70Rep_2.txt_execution_events.txt
+Execution ended at: Sun Aug 30 12:18:51 2020
+
+Total processing time:  8 hours 39 minutes 11 seconds
+Executing the following command: ./conefor2.7.3Linux -nodeFile nodes -conFile distance -t dist notall -* -confProb 50000 0.5 -PC onlyoverall 
+Execution started at: Sun Aug 30 12:18:52 2020
+
+Number of nodes to process: 16514
+Sum of the attributes of existing nodes: 23668
+Distance and probability (probabilistic indices): 50000 0.5
+PC computed in the default mode: checking all paths (no connections discarded)
+Node file: nodes_5000randsyr80Rep_2.txt
+Connection file: distance_5000randsyr80Rep_2.txt
+
+Progress of the calculations is being written to file _5000randsyr80Rep_2.txt_execution_events.txt
+Execution ended at: Sun Aug 30 21:21:55 2020
+
+Total processing time:  9 hours 3 minutes 3 seconds
+> 
+> 
+> proc.time()
+      user     system    elapsed 
+168392.291   5998.014 174393.872 
